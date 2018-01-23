@@ -14,7 +14,7 @@ gunicorn --worker-class gevent --log-level debug --bind 0.0.0.0:8000 Colaborador
 
 <code>
 server {
-    server_name {MI IP o NI NOMBRE DE MAQUINA }};
+    server_name {MI IP o MI NOMBRE DE MAQUINA }};
 
     # Running port
     listen 80;
